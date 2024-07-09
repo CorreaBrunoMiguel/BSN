@@ -27,4 +27,9 @@ spring:
           enable: true
         connectiontimout: 5000
         timeout: 3000
-        writetimeout: 5000it `
+        writetimeout: 5000
+  application:
+    security:
+      jwt:
+        secret-key: eyJhbGciOiJIUzI1NiJ9.eyJSb2xlIjoiQWRtaW4iLCJJc3N1ZXIiOiJJc3N1ZXIiLCJVc2VybmFtZSI6IkphdmFJblVzZSIsImV4cCI6MTcxOTU2OTg2MywiaWF0IjoxNzE5NTY5ODYzfQ.0P1HB_vbAeUu-fNAP7pVxJywVFyEhIk4BMf8P5QaTIE
+        expiration: 8640000
